@@ -195,3 +195,17 @@ footer > div { display: flex; gap: 24px; }
   .hero { background: linear-gradient(110deg, #fff 35%, #fff0f6); }
   .intro-copy { position: relative; background: #ffffffd9; padding: 12px 14px; margin-left: -14px; border-radius: 4px; }
 }
+
+/* Red color field with neutral typography. */
+h1 em { background: none; color: var(--muted); }
+.hero { background: linear-gradient(110deg, #fff 20%, #fff5f4 100%); }
+.hero::before {
+  background: linear-gradient(145deg, #ffe3df 0%, #f6aaa4 35%, #e2676c 68%, #b82f40 100%);
+}
+.outside { background: linear-gradient(110deg, #fff8f7, #fbe5e3 65%, #f4d4d5); }
+.button { background: linear-gradient(110deg, #b52d38, #932533); }
+.button:hover { background: #932533; }
+.project::before, .project:nth-of-type(2)::before {
+  background: linear-gradient(90deg, #c74c56, #edb0b3, transparent);
+}
+.contact::before { background: linear-gradient(90deg, #b52d38, #f0b1b5); }
